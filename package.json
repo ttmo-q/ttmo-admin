@@ -43,7 +43,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "comma-dangle": [2, "always-multiline"]
+    }
   },
   "browserslist": [
     "> 1%",
